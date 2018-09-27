@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		87CD71F02133986700864CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CD71EF2133986700864CAA /* AppDelegate.swift */; };
-		87CD71F22133986700864CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CD71F12133986700864CAA /* ViewController.swift */; };
+		87CD71F22133986700864CAA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CD71F12133986700864CAA /* DetailViewController.swift */; };
 		87CD71F52133986700864CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CD71F32133986700864CAA /* Main.storyboard */; };
 		87CD71F72133986700864CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CD71F62133986700864CAA /* Assets.xcassets */; };
 		87CD71FA2133986700864CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CD71F82133986700864CAA /* LaunchScreen.storyboard */; };
+		87CD72022133988000864CAA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CD72012133988000864CAA /* TableViewController.swift */; };
+		87CD7206213398CB00864CAA /* NotificationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CD7205213398CB00864CAA /* NotificationKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87CD71EC2133986700864CAA /* NotificationTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CD71EF2133986700864CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87CD71F12133986700864CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87CD71F12133986700864CAA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		87CD71F42133986700864CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87CD71F62133986700864CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87CD71F92133986700864CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87CD71FB2133986700864CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CD72012133988000864CAA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		87CD7205213398CB00864CAA /* NotificationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				87CD71EF2133986700864CAA /* AppDelegate.swift */,
-				87CD71F12133986700864CAA /* ViewController.swift */,
+				87CD71F12133986700864CAA /* DetailViewController.swift */,
+				87CD72012133988000864CAA /* TableViewController.swift */,
+				87CD7205213398CB00864CAA /* NotificationKey.swift */,
 				87CD71F32133986700864CAA /* Main.storyboard */,
 				87CD71F62133986700864CAA /* Assets.xcassets */,
 				87CD71F82133986700864CAA /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CD71F22133986700864CAA /* ViewController.swift in Sources */,
+				87CD7206213398CB00864CAA /* NotificationKey.swift in Sources */,
+				87CD71F22133986700864CAA /* DetailViewController.swift in Sources */,
+				87CD72022133988000864CAA /* TableViewController.swift in Sources */,
 				87CD71F02133986700864CAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
